@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/app_logo"> </ImageView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Rithik"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+android:textStyle="bold"
+        android:gravity="center_horizontal"> </TextView>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" +91-7007814821 "
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textStyle="bold">  </TextView>
+</LinearLayout>

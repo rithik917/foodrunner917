@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="Home"
+    android:icon="@drawable/ic_action_home"
+    > </item>
+    <item
+        android:id="@+id/myprofile"
+        android:title="My profile"
+        android:icon="@drawable/ic_action_person"
+        android:iconTint="@color/colorPrimary"
+        >
+
+    </item>
+    <item
+        android:id="@+id/Favourite"
+        android:title="Favorite Restaurants"
+        android:icon="@drawable/ic_action_heart"
+        > </item>
+    <item
+        android:id="@+id/order"
+        android:title="Order History"
+        android:icon="@drawable/ic_action_history"
+        > </item>
+    <item
+        android:id="@+id/Faq"
+        android:title="FAQ'S"
+        android:icon="@drawable/ic_action_help"
+        > </item>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_action_logout"
+        > </item>
+</menu>
